@@ -3,11 +3,10 @@
   "providerName": "Customdomain",
   "serviceId": "apex-cname",
   "serviceName": "Point apex (flatten-capable hosts)",
-  "version": 2,
+  "version": 1,
   "logoUrl": "https://customdomain.ai/logo.svg",
   "description": "Point your root domain at Customdomain by aliasing the apex (@) to the Customdomain edge with a CNAME-flattening (ALIAS/ANAME) record. Use this when your DNS host supports CNAME flattening at the apex.",
   "syncPubKeyDomain": "customdomain.ai",
-  "syncRedirectDomain": "api.customdomain.ai,app.customdomain.ai,customdomain.ai",
   "records": [
     {
       "type": "APEXCNAME",
